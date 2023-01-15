@@ -1,0 +1,1 @@
+tellraw @a {"text": "Bienvenido al datapack donde la tierra es god", "color": "#00FFB9"}
