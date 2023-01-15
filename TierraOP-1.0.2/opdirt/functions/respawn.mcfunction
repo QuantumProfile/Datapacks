@@ -1,0 +1,1 @@
+execute at @s in minecraft:dirt_dimension run spawnpoint @s ~ ~ ~
