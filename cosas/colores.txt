@@ -1,0 +1,15 @@
+7A4F04 enchanted dirt
+2F8000 enchanted leaves
+450094 hot obsidian
+800040 magma fragments
+D17200 superhotmagmablock
+9C7700 enchanted plancks
+826300 enchanted stripped log
+705400 enchanted log
+00FFE5 enchanted diamond block
+DBB700 enchanted gold stuff
+5C2501 netherite stuff
+FFD500 gold potion 990000
+8A8A8A stone
+00AD00 emerald
+B2D1D4 nds

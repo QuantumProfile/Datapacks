@@ -1,0 +1,8 @@
+@a[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",tag:{display:{Lore:['{"text":"It is indeed a 
+perfect pickaxe"}']}}}}]
+
+@a[nbt={Inventory:[{Slot:100b,id:"minecraft:chainmail_boots",tag:{display:{Lore:['
+{"text":"Gives you speed"}']}}}]}] minecraft:speed 1 11
+
+{display:{Lore:['{"text":"These pants make you immune to fire and lava"}'], 
+color:16351261, Name:'{"text":"Magma Pants"}'}, Unbreakable:1}
