@@ -1,0 +1,17 @@
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick",Count:1b},{Slot:1b,id:"minecraft:stick",Count:1b},{Slot:2b,id:"minecraft:stick",Count:1b},{Slot:3b,id:"minecraft:stick",Count:1b},{Slot:4b,id:"minecraft:cobweb",Count:1b},{Slot:5b,id:"minecraft:stick",Count:1b},{Slot:6b,id:"minecraft:stick", Count:1b},{Slot:7b,id:"minecraft:stick",Count:1b},{Slot:8b,id:"minecraft:stick",Count:1b}]} run function opdirt:craftingresults/begginerstuff/filter
+
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick",Count:1b},{Slot:1b,id:"minecraft:stick",Count:1b},{Slot:4b,id:"minecraft:stick",Count:1b},{Slot:7b,id:"minecraft:stick",Count:1b}]} run function opdirt:craftingresults/begginerstuff/crook
+
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:1b,tag:{cobble:1}},{Slot:1b,id:"minecraft:cobblestone",Count:1b,tag:{cobble:1}},{Slot:2b,id:"minecraft:cobblestone",Count:1b,tag:{cobble:1}},{Slot:3b,id:"minecraft:cobblestone",Count:1b,tag:{cobble:1}},{Slot:4b,id:"minecraft:bucket",Count:1b},{Slot:5b,id:"minecraft:cobblestone",Count:1b,tag:{cobble:1}},{Slot:6b,id:"minecraft:cobblestone", Count:1b,tag:{cobble:1}},{Slot:7b,id:"minecraft:cobblestone",Count:1b,tag:{cobble:1}},{Slot:8b,id:"minecraft:cobblestone",Count:1b,tag:{cobble:1}}]} run function opdirt:craftingresults/begginerstuff/lava
+
+#filter
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick",Count:8b},{Slot:1b,id:"minecraft:stick",Count:8b},{Slot:2b,id:"minecraft:stick",Count:8b},{Slot:3b,id:"minecraft:stick",Count:8b},{Slot:4b,id:"minecraft:cobweb",Count:8b},{Slot:5b,id:"minecraft:stick",Count:8b},{Slot:6b,id:"minecraft:stick", Count:8b},{Slot:7b,id:"minecraft:stick",Count:8b},{Slot:8b,id:"minecraft:stick",Count:8b}]} run function opdirt:craftingresults/begginerstuff/filter2
+
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick",Count:8b},{Slot:1b,id:"minecraft:stick",Count:8b},{Slot:2b,id:"minecraft:stick",Count:8b},{Slot:3b,id:"minecraft:stick",Count:8b},{Slot:4b,id:"minecraft:cobweb",Count:32b},{Slot:5b,id:"minecraft:stick",Count:8b},{Slot:6b,id:"minecraft:stick", Count:8b},{Slot:7b,id:"minecraft:stick",Count:8b},{Slot:8b,id:"minecraft:stick",Count:8b}]} run function opdirt:craftingresults/begginerstuff/filter3
+
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick",Count:8b},{Slot:1b,id:"minecraft:stick",Count:8b},{Slot:2b,id:"minecraft:stick",Count:8b},{Slot:3b,id:"minecraft:stick",Count:8b},{Slot:4b,id:"minecraft:cobweb",Count:24b},{Slot:5b,id:"minecraft:stick",Count:8b},{Slot:6b,id:"minecraft:stick", Count:8b},{Slot:7b,id:"minecraft:stick",Count:8b},{Slot:8b,id:"minecraft:stick",Count:8b}]} run function opdirt:craftingresults/begginerstuff/filter4
+
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick",Count:8b},{Slot:1b,id:"minecraft:stick",Count:8b},{Slot:2b,id:"minecraft:stick",Count:8b},{Slot:3b,id:"minecraft:stick",Count:8b},{Slot:4b,id:"minecraft:cobweb",Count:16b},{Slot:5b,id:"minecraft:stick",Count:8b},{Slot:6b,id:"minecraft:stick", Count:8b},{Slot:7b,id:"minecraft:stick",Count:8b},{Slot:8b,id:"minecraft:stick",Count:8b}]} run function opdirt:craftingresults/begginerstuff/filter5
+
+#Crook
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick",Count:8b},{Slot:1b,id:"minecraft:stick",Count:8b},{Slot:4b,id:"minecraft:stick",Count:8b},{Slot:7b,id:"minecraft:stick",Count:8b}]} run function opdirt:craftingresults/begginerstuff/crook1
