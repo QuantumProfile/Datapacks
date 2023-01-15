@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:nether_forest",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:crimson_nylium"
+      },
+      "under_material": {
+        "Name": "minecraft:gold_block"
+      },
+      "underwater_material": {
+        "Name": "minecraft:nether_wart_block"
+      }
+    }
+  }

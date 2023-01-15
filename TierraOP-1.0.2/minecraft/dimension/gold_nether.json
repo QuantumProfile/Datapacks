@@ -1,0 +1,121 @@
+{
+    "type": {
+      "name": "minecraft:the_nether",
+      "ultrawarm": true,
+      "natural": false,
+      "piglin_safe": true,
+      "respawn_anchor_works": true,
+      "bed_works": false,
+      "has_raids": false,
+      "has_skylight": false,
+      "has_ceiling": true,
+      "coordinate_scale": 1,
+      "ambient_light": 0,
+      "fixed_time": 18000,
+      "logical_height": 128,
+      "effects": "minecraft:the_nether",
+      "infiniburn": "minecraft:infiniburn_nether"
+    },
+    "generator": {
+      "type": "minecraft:noise",
+      "seed": 0,
+      "settings": {
+        "name": "minecraft:nether",
+        "bedrock_roof_position": 0,
+        "bedrock_floor_position": 0,
+        "sea_level": 32,
+        "disable_mob_generation": true,
+        "default_block": {
+          "Name": "minecraft:gold_block"
+        },
+        "default_fluid": {
+          "Name": "minecraft:lava",
+          "Properties": {
+            "level": "0"
+          }
+        },
+        "noise": {
+          "height": 128,
+          "density_factor": 0,
+          "density_offset": 0.019921875,
+          "size_horizontal": 1,
+          "size_vertical": 2,
+          "simplex_surface_noise": false,
+          "random_density_offset": false,
+          "sampling": {
+            "xz_scale": 1,
+            "y_scale": 3,
+            "xz_factor": 80,
+            "y_factor": 60
+          },
+          "bottom_slide": {
+            "target": 320,
+            "size": 4,
+            "offset": -1
+          },
+          "top_slide": {
+            "target": 120,
+            "size": 3,
+            "offset": 0
+          }
+        },
+        "structures": {
+          "structures": {}
+        }
+      },
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "seed": 0,
+        "altitude_noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "temperature_noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "humidity_noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "weirdness_noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1,
+            1
+          ]
+        },
+        "biomes": [
+          {
+            "biome": "minecraft:golden_deeps",
+            "parameters": {
+              "altitude": 0.1,
+              "temperature": 0,
+              "humidity": 0,
+              "weirdness": 0.1,
+              "offset": 0
+            }
+          },
+          {
+            "biome": "minecraft:gold_forest",
+            "parameters": {
+              "altitude": 0.1,
+              "temperature": 0.4,
+              "humidity": 0,
+              "weirdness": 0.15,
+              "offset": 0
+            }
+          }
+        ]
+      }
+    }
+  }
