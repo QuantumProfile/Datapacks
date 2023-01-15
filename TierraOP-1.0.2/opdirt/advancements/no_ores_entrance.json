@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": {
+        "text": "A Stone World",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Enter the No Ores Dimension",
+        "color": "dark_gray",
+        "bold": false,
+        "italic": false
+      },
+      "background": "minecraft:textures/block/iron_block.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "dimension": "minecraft:no_ores_overworld"
+          }
+        }
+      }
+    }
+  }

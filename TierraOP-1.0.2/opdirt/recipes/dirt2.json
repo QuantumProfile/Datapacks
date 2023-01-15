@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dirt"
+        },
+        "O": {
+            "item": "minecraft:oak_leaves"
+        }
+    },
+    "result": {
+        "item": "minecraft:oak_leaves",
+        "count": 2
+    }
+}

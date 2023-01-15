@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:dirt"
+      },
+      "title": {
+        "text": "Dirt Beginnings",
+        "color": "#7A4F04",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Mine a Block of Dirt",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      "background": "minecraft:textures/block/dirt.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:dirt"
+            }
+          ]
+        }
+      }
+    }
+  }

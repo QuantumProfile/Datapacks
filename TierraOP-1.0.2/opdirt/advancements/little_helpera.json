@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:obsidian"
+      },
+      "title": {
+        "text": "A super Fast Pickaxe",
+        "color": "#450094",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Craft the little helper",
+        "color": "purple",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:helper_pickaxe",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:netherite_pickaxe",
+              "nbt": "{display:{Name:'{\"text\":\"Little Helper\"}'},Enchantments: [{id:\"minecraft:efficiency\",lvl:1000000000}], Damage:1981}"
+            }
+          ]
+        }
+      }
+    }
+  }

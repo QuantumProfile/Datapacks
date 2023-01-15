@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:gold_ingot"
+      },
+      "title": {
+        "text": "Gold Progression",
+        "color": "#DBB700",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Craft a gold ingot",
+        "color": "gold",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:ench",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:gold_ingot"
+            }
+          ]
+        }
+      }
+    }
+  }

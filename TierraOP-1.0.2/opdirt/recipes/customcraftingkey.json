@@ -1,0 +1,10 @@
+{
+    "type":"crafting_shaped",
+    "pattern":["##", "##"],
+    "key":{
+        "#":{"item":"minecraft:crafting_table"}
+    },
+    "result":{
+        "item":"minecraft:tripwire_hook"
+    }
+}

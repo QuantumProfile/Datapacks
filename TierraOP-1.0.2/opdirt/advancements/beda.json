@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bedrock"
+      },
+      "title": {
+        "text": "Bedrock???",
+        "color": "dark_gray",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Obtain bedrock in survival",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:best_pickaxe",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:bedrock"
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_helmet"
+      },
+      "title": {
+        "text": "Full Iron B)",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Get Full Iron Armor",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:dirt_achievement",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:iron_boots"
+            },
+            {
+              "item": "minecraft:iron_leggings"
+            },
+            {
+              "item": "minecraft:iron_chestplate"
+            },
+            {
+              "item": "minecraft:iron_helmet"
+            }
+          ]
+        }
+      }
+    }
+  }

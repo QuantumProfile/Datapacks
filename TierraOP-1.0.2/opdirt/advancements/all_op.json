@@ -1,0 +1,48 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_block"
+      },
+      "title": {
+        "text": "Get Full OP Armor",
+        "color": "aqua",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Craft all OP armor pieces",
+        "bold": true,
+        "italic": false
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:best_pickaxe",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:chainmail_boots",
+              "nbt": "{tag:{speed:1}}"
+            },
+            {
+              "item": "minecraft:golden_helmet",
+              "nbt": "{crown:1}"
+            },
+            {
+              "item": "minecraft:leather_leggings",
+              "nbt": "{tag:{magma:1}}"
+            },
+            {
+              "item": "minecraft:netherite_chestplate",
+              "nbt": "{tag:{armor:1}}"
+            }
+          ]
+        }
+      }
+    }
+  }

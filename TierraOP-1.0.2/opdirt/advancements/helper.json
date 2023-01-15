@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_shovel"
+      },
+      "title": {
+        "text": "Your first helper tool",
+        "color": "white",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Obtain a Helper Tool",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:dirt_achievement",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:iron_shovel",
+              "nbt": "{tag:{helper_tool1:1}}"
+            }
+          ]
+        }
+      }
+    }
+  }

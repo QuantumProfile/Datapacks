@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": {
+        "text": "Emerald Trees?...",
+        "color": "green",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "mine an emerald block from the No Ores Trees",
+        "color": "dark_green",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:no_ores_entrance",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:emerald_block"
+            }
+          ]
+        }
+      }
+    }
+  }

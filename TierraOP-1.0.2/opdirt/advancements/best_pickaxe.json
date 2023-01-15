@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_pickaxe"
+      },
+      "title": {
+        "text": "The Best Pickaxe",
+        "color": "aqua",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Craft the OP pickaxe",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:neth_block",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:netherite_pickaxe",
+              "nbt": "{tag:{perfect_pickaxe:1}}"
+            }
+          ]
+        }
+      }
+    }
+  }

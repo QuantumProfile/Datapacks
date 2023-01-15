@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_block"
+      },
+      "title": {
+        "text": "Super Netherite!!!",
+        "color": "#5C2501",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Craft the super netherite block",
+        "color": "#990000",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:golden_nether_deeps",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:netherite_block",
+              "nbt": "{tag:{netherite_block:1}}"
+            }
+          ]
+        }
+      }
+    }
+  }

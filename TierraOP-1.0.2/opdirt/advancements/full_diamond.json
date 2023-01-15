@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_helmet"
+      },
+      "title": {
+        "text": "Full Diamond B)",
+        "color": "aqua",
+        "bold": true,
+        "italic": false
+      },
+      "description": {
+        "text": "Get Full Iron Armor",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "opdirt:no_ores_entrance",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:diamond_boots"
+            },
+            {
+              "item": "minecraft:diamond_leggings"
+            },
+            {
+              "item": "minecraft:diamond_chestplate"
+            },
+            {
+              "item": "minecraft:diamond_helmet"
+            }
+          ]
+        }
+      }
+    }
+  }
